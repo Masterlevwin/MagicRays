@@ -17,13 +17,14 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
     public int t { private set; get; }
     public bool act { private set; get; }
     public Skills skill = Skills.none;
-    public SpriteRenderer[] spriteRenderers;
+    private SpriteRenderer[] spriteRenderers;
     private Sunny sunny;
     private Skills startSkill;
     private int startTemp;
     
-    private void OnEnable()
+    void Start()
     {
+        sunny = transform.parent.GetComponent<Sunny>();
         SetSortOrder(0);
         GameController.G.cancelNotify += Cancel;
         GameController.G.restartNotify += RayLevel;
@@ -68,24 +69,24 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
         switch (sk)
         {
             case Skills.doubleUse:
-                spriteRenderers[1].sprite = GameController.G.raySprites[15];
-                spriteRenderers[4].sprite = GameController.G.raySprites[10];
+                spriteRenderers[0].sprite = GameController.G.raySprites[14];
+                spriteRenderers[3].sprite = GameController.G.raySprites[10];
                 break;
             case Skills.rotateRight:
-                spriteRenderers[1].sprite = GameController.G.raySprites[16];
-                spriteRenderers[4].sprite = GameController.G.raySprites[11];
+                spriteRenderers[0].sprite = GameController.G.raySprites[15];
+                spriteRenderers[3].sprite = GameController.G.raySprites[11];
                 break;
             case Skills.rotateLeft:
-                spriteRenderers[1].sprite = GameController.G.raySprites[17];
-                spriteRenderers[4].sprite = GameController.G.raySprites[12];
+                spriteRenderers[0].sprite = GameController.G.raySprites[16];
+                spriteRenderers[3].sprite = GameController.G.raySprites[12];
                 break;
             case Skills.reverseTemp:
-                spriteRenderers[1].sprite = GameController.G.raySprites[18];
-                spriteRenderers[4].sprite = GameController.G.raySprites[13];
+                spriteRenderers[0].sprite = GameController.G.raySprites[17];
+                spriteRenderers[3].sprite = GameController.G.raySprites[13];
                 break;
             default:
-                spriteRenderers[1].sprite = GameController.G.raySprites[19];
-                spriteRenderers[4].sprite = GameController.G.raySprites[14];
+                spriteRenderers[0].sprite = GameController.G.raySprites[0];
+                spriteRenderers[3].sprite = null;
                 skill = Skills.none;
                 break;
         }
@@ -96,7 +97,7 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
     private void SkillEffect(Skills sE)
     {
         switch (sE)
-        {
+        {   
             case Skills.rotateRight:
                 if (sunny.rots < 3) sunny.RotateSunny();
                 break;
@@ -117,8 +118,13 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
     public void SetTemperature(int setTemp = 0)
     {
         t = setTemp;
-        spriteRenderers[2].sprite = GameController.G.raySprites[t];
-        if (t < 0) spriteRenderers[3].sprite = GameController.G.raySprites[20];
+        if (t == 0)
+        {
+          spriteRenderers[1].sprite = null;
+          spriteRenderers[2].sprite = null;
+        } 
+        else spriteRenderers[1].sprite = GameController.G.raySprites[Mathf.Abs(t)];
+        if (t < 0) spriteRenderers[2].sprite = GameController.G.raySprites[18];
     }
 
     public void ActiveButton(bool b)
@@ -130,7 +136,6 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         if (GameController.G.phase != GamePhase.level) if (!_isCopy || !act) return;
-        sunny = transform.parent.GetComponent<Sunny>();
         GameController.G.result += t;
         SkillEffect(skill); 
         if (_isCopy) sunny.DestroyCopy();
@@ -190,28 +195,16 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
 
             switch (tSR.gameObject.name)
             {
-                case "bg":
+                case "Number":
                     tSR.sortingOrder = sOrd + 1;
                     break;
-                case "number":
+                case "Minus":
                     tSR.sortingOrder = sOrd + 2;
                     break;
-                case "minus":
+                case "Skill":
                     tSR.sortingOrder = sOrd + 3;
                     break;
-                case "skill":
-                    tSR.sortingOrder = sOrd + 4;
-                    break;
-        }
-    }
-
-    public void SetSortingLayerName(string tSLN)
-    {
-        PopulateSpriteRenderers();
-
-        foreach (SpriteRenderer tSR in spriteRenderers)
-        {
-            tSR.sortingLayerName = tSLN;
+            }
         }
     }
 }

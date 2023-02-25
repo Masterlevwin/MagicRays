@@ -15,19 +15,16 @@ public enum Days: byte
 public class Sunny : MonoBehaviour, IPointerClickHandler
 {
     public int rots { private set; get; }
-    public Transform mutePrefab;
     public RaySunny prefab;
     public Days now = Days.Утро;
     public SimpleSpinner spinner;
     public Sprite[] dayTimes;
     private SpriteRenderer dayTime;
     private List<RaySunny> rays;
+    private List<SimpleSpinner> spinners;
 
-    private void OnEnable()
+    void Start()
     {
-        GameObject muteRay = new GameObject("MuteAnchor");
-        muteRay.transform.SetParent(transform.parent);
-
         GameController.G.pullNotify += MoveToTarget;
         GameController.G.cancelNotify += Cancel;
         GameController.G.restartNotify += SunLevel;
@@ -35,6 +32,7 @@ public class Sunny : MonoBehaviour, IPointerClickHandler
         dayTime = transform.parent.GetComponent<SpriteRenderer>();
 
         if (rays == null) rays = new List<RaySunny>();
+        if (spinners == null) spinners = new List<SimpleSpinner>();
 
         Vector3 centerSunny = transform.position;
         for (int i = 0; i < 12; i++)
@@ -44,12 +42,11 @@ public class Sunny : MonoBehaviour, IPointerClickHandler
             RaySunny raySunny = Instantiate(prefab, pos, Quaternion.identity);
             raySunny.transform.SetParent(transform);
             rays.Add(raySunny);
-            if (i != 0 && i != 1 && i != 11) Instantiate(mutePrefab, pos, Quaternion.identity, muteRay.transform);
-            else 
+            if (i == 0 || i == 1 || i == 11)
             {
-                spinner = Instantiate(spinner, pos, Quaternion.identity, GameObject.Find("Rank&Spinner").transform);
-                spinner.transform.localScale = raySunny.transform.localScale;
-            }
+                spinner = Instantiate(spinner, pos, Quaternion.identity, transform.parent);
+                spinners.Add(spinner);
+            } 
         }
         SunLevel();
     }
@@ -159,10 +156,12 @@ public class Sunny : MonoBehaviour, IPointerClickHandler
             if (step >= 1) break;
             transform.localRotation = Quaternion.Slerp(startRotation, endRotation, step);
             foreach (RaySunny rS in rays) rS.transform.localRotation = Quaternion.Slerp(startRay, endRay, step);
+            foreach (SimpleSpinner s in spinners) s.gameObject.SetActive(false);
             yield return null;
         }
         transform.localRotation = endRotation;
         foreach (RaySunny rS in rays) rS.transform.localRotation = endRay;
+        foreach (SimpleSpinner s in spinners) s.gameObject.SetActive(true);
         if (GameController.G.phase != GamePhase.complete) GameController.G.phase = GamePhase.level;
     }
 

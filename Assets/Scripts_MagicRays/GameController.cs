@@ -17,21 +17,21 @@ public class GameController: MonoBehaviour
     public static GameController G;
     public static int training = 0;
     public static bool invisResult = false;
-    public GamePhase phase = GamePhase.level;     
+    public GamePhase phase = GamePhase.level;
     public int result = 0;
     
     public Fader fader;
-    public GameObject sunny;
     public TMP_Text res;
     public TMP_Text sunDays;
     public GameObject trainingPref;
     public Target target;
-    public Image table;        
+    public TMP_Text txtTarg;
+    public Image table;
     public GameObject[] vfx;
     public Sprite[] tables;
     public Sprite[] raySprites;
     public Sprite[] ranks;
-    private SpriteRenderer rank;
+    public SpriteRenderer rank;
     public delegate void CheckDelegate();
     public event CheckDelegate pullNotify;
     public event CheckDelegate cancelNotify;
@@ -42,11 +42,7 @@ public class GameController: MonoBehaviour
         if (G == null) G = this;
         else if (G == this) Destroy(gameObject);
 
-        sunny = Instantiate(sunny, table.transform);
-        rank = sunny.transform.GetChild(1).GetComponent<SpriteRenderer>();
-        
         trainingPref = Instantiate(trainingPref, table.transform);
-        target = Instantiate(target, table.transform);
         LoadLevel();
     }
 
@@ -91,7 +87,7 @@ public class GameController: MonoBehaviour
     
     public void Win()
     {
-        SoundManager.PlaySound("OrchestraEffect2");
+        //SoundManager.PlaySound("OrchestraEffect2");
         Instantiate(vfx[1]);
         training++;
         PlayerPrefs.SetInt("SavedLevel", training);
@@ -106,7 +102,7 @@ public class GameController: MonoBehaviour
 
     public void Lose()
     {
-        SoundManager.PlaySound("LoseGame");
+        //SoundManager.PlaySound("LoseGame");
         phase = GamePhase.complete;
         Instantiate(vfx[0]);
         training--;
@@ -149,6 +145,11 @@ public class GameController: MonoBehaviour
     {
         trainingPref.SetActive(true);
         trainingPref.GetComponentInChildren<TMP_Text>().text = txt;
+    }
+
+    public void TextTarget(string txt)
+    {
+        txtTarg.text = txt;
     }
 
     public static int RandomWithoutInt(int from, int to, int without = 0)
