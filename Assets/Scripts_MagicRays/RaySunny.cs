@@ -15,7 +15,6 @@ public enum Skills : byte
 public class RaySunny : MonoBehaviour, IPointerClickHandler
 {
     public int t { private set; get; }
-    public bool act { private set; get; }
     public Skills skill = Skills.none;
     private SpriteRenderer[] spriteRenderers;
     private Sunny sunny;
@@ -25,15 +24,19 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
     void Start()
     {
         sunny = transform.parent.GetComponent<Sunny>();
-        SetSortOrder(0);
         GameController.G.cancelNotify += Cancel;
         GameController.G.restartNotify += RayLevel;
-        RayLevel();
+        if (!_isCopy) RayLevel();
+    }
+
+    private void OnDisable()
+    {
+        if (_isCopy) GameController.G.restartNotify -= RayLevel;
     }
 
     private void RayLevel()
     {
-        ActiveButton(true);
+        SetSortOrder(0);
         if (GameController.training < 25)
         {
             if (GameController.training == 0) SetTemperature(Random.Range(4, 6));
@@ -111,7 +114,7 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
             default:
                 break;
         }
-        if (sE != Skills.doubleUse) ActiveButton(false);
+        if (sE != Skills.doubleUse) SetTemperature();
         SetSkill();
     }
     
@@ -127,17 +130,11 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
         if (t < 0) spriteRenderers[2].sprite = GameController.G.raySprites[18];
     }
 
-    public void ActiveButton(bool b)
-    {
-        act = b;
-        SetTemperature();
-    }
-
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (GameController.G.phase != GamePhase.level) if (!_isCopy || !act) return;
+        if (GameController.G.phase != GamePhase.level && !_isCopy) return;
         GameController.G.result += t;
-        SkillEffect(skill); 
+        SkillEffect(skill);
         if (_isCopy) sunny.DestroyCopy();
         if (GameController.training < 10) GameController.G.TextView("Если не хватило заряда, нажми на солнышко");
     }
@@ -146,7 +143,6 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
     { 
         if (!_isCopy)
         {
-            ActiveButton(true);
             SetTemperature(startTemp);
             skill = SetSkill(startSkill);
         } 
@@ -162,12 +158,13 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
         
         left = Instantiate(sunny.prefab, new Vector3(transform.position.x - 0.5f, transform.position.y + 0.5f, 0f), Quaternion.identity, transform.parent);
         left.transform.localScale = transform.localScale * 1.2f;
+        left.SetSortOrder(4);
         left.SetTemperature(-t);
         left.SetSkill(Skills.rotateLeft);
         left._isCopy = true;
-        sunny.InactiveRays();
         right = Instantiate(sunny.prefab, new Vector3(transform.position.x + 0.5f, transform.position.y + 0.5f, 0f), Quaternion.identity, transform.parent);
         right.transform.localScale = transform.localScale * 1.2f;
+        right.SetSortOrder(4);
         right.SetTemperature(t);
         right.SetSkill(Skills.rotateRight);
         right._isCopy = true;

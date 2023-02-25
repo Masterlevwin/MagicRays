@@ -16,6 +16,7 @@ public class Sunny : MonoBehaviour, IPointerClickHandler
 {
     public int rots { private set; get; }
     public RaySunny prefab;
+    public Transform mutePrefab;
     public Days now = Days.Утро;
     public SimpleSpinner spinner;
     public Sprite[] dayTimes;
@@ -42,11 +43,12 @@ public class Sunny : MonoBehaviour, IPointerClickHandler
             RaySunny raySunny = Instantiate(prefab, pos, Quaternion.identity);
             raySunny.transform.SetParent(transform);
             rays.Add(raySunny);
-            if (i == 0 || i == 1 || i == 11)
+            if (i != 0 && i != 1 && i != 11) Instantiate(mutePrefab, pos, Quaternion.identity, transform.parent);
+            else 
             {
                 spinner = Instantiate(spinner, pos, Quaternion.identity, transform.parent);
                 spinners.Add(spinner);
-            } 
+            }
         }
         SunLevel();
     }
@@ -69,13 +71,7 @@ public class Sunny : MonoBehaviour, IPointerClickHandler
     public void DestroyCopy()
     {
         foreach(RaySunny rS in GetComponentsInChildren<RaySunny>()) if (rS._isCopy) Destroy(rS.gameObject);
-        foreach (RaySunny rS in rays) rS.SetSortOrder(0);
         GameController.G.phase = GamePhase.level;
-    }
-
-    public void InactiveRays()
-    {
-        foreach (RaySunny rS in rays) rS.SetSortOrder(-1);
     }
 
     public Days Now(int r = 0)

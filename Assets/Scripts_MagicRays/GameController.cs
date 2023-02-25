@@ -48,6 +48,7 @@ public class GameController: MonoBehaviour
 
     public void LoadLevel()
     {
+        if (PlayerPrefs.HasKey("SavedLevel")) training = PlayerPrefs.GetInt("SavedLevel");
         restartNotify?.Invoke();
         phase = GamePhase.level;
         result = 0;
@@ -55,8 +56,7 @@ public class GameController: MonoBehaviour
 
         trainingPref.SetActive(false);
         table.sprite = tables[Random.Range(0, tables.Length)];
-
-        if (PlayerPrefs.HasKey("SavedLevel")) training = PlayerPrefs.GetInt("SavedLevel");
+        
         if (training < 5) rank.sprite = ranks[0];
         else if (training < 15) rank.sprite = ranks[1];
         else if (training < 25) rank.sprite = ranks[2];

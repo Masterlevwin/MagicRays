@@ -186,6 +186,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 8963410102683707656, guid: 712fda63f536be54392b120abcb8c381, type: 3}
+  mutePrefab: {fileID: 6605367863892080395, guid: 85ed5bb4dfa07d548accf9b2ac962658, type: 3}
   now: 0
   spinner: {fileID: 3741052074314415162, guid: c4ae934aad5420a41a50c42943839028, type: 3}
   dayTimes:
