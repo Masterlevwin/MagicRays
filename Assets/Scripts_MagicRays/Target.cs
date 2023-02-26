@@ -25,8 +25,8 @@ public class Target : MonoBehaviour, IPointerClickHandler
         
         if (GameController.training == 0) SetTemp(5);
         else if (GameController.training < 15) SetTemp(Random.Range(9, 16));
-        else if (GameController.training < 25) SetTemp(Random.Range(5, 26));
-        else SetTemp(Random.Range(1, 36));
+        else if (GameController.training < 25) SetTemp(Random.Range(9, 26));
+        else SetTemp(Random.Range(9, 36));
     }
 
     public int temp { private set; get; }
@@ -52,10 +52,10 @@ public class Target : MonoBehaviour, IPointerClickHandler
         $"{temp*x*4}/{x}-{temp*3}",
         $"{temp+Mathf.FloorToInt(temp/2)}-{temp*x-(temp%2)*x}/{2*x}" };
         
-        if (GameController.training < 35) GameController.G.TextTarget(str[Random.Range(0, 1)]);
-        else if (GameController.training < 45) GameController.G.TextTarget(str[Random.Range(1, 3)]);
-        else if (GameController.training < 55) GameController.G.TextTarget(str[Random.Range(3, 7)]);
-        else GameController.G.TextTarget(str[Random.Range(4, str.Length)]);
+        if (GameController.training < 15) GameController.G.TextTarget(str[Random.Range(0, 1)]);
+        else if (GameController.training < 25) GameController.G.TextTarget(str[Random.Range(1, 4)]);
+        else if (GameController.training < 35) GameController.G.TextTarget(str[Random.Range(4, 7)]);
+        else GameController.G.TextTarget(str[Random.Range(7, str.Length)]);
     }
 
     public void OnPointerClick(PointerEventData eventData)
