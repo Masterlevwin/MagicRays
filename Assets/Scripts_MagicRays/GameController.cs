@@ -87,7 +87,7 @@ public class GameController: MonoBehaviour
     
     public void Win()
     {
-        //SoundManager.PlaySound("OrchestraEffect2");
+        SoundManager.PlaySound("OrchestraEffect2");
         Instantiate(vfx[1]);
         training++;
         PlayerPrefs.SetInt("SavedLevel", training);
@@ -102,7 +102,7 @@ public class GameController: MonoBehaviour
 
     public void Lose()
     {
-        //SoundManager.PlaySound("LoseGame");
+        SoundManager.PlaySound("LoseGame");
         phase = GamePhase.complete;
         Instantiate(vfx[0]);
         training--;
@@ -119,7 +119,7 @@ public class GameController: MonoBehaviour
     void Update()
     {
         if (invisResult) res.text = $"";
-        else res.text = $"{result}";
+        else if (phase != GamePhase.complete) res.text = $"= {result}";
 
         if (phase != GamePhase.complete && result == target.temp)
         {

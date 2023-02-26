@@ -128,11 +128,13 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
         } 
         else spriteRenderers[1].sprite = GameController.G.raySprites[Mathf.Abs(t)];
         if (t < 0) spriteRenderers[2].sprite = GameController.G.raySprites[18];
+        else spriteRenderers[2].sprite = null;
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         if (GameController.G.phase != GamePhase.level && !_isCopy) return;
+        SoundManager.PlaySound("KickBubble");
         GameController.G.result += t;
         SkillEffect(skill);
         if (_isCopy) sunny.DestroyCopy();

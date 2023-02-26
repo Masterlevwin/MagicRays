@@ -98,7 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Rotation: 1
-  RotationSpeed: 0.5
+  RotationSpeed: 0.25
   RotationAnimationCurve:
     serializedVersion: 2
     m_Curve:

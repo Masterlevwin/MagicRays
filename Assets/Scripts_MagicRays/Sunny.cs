@@ -109,7 +109,11 @@ public class Sunny : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
       if (GameController.G.phase != GamePhase.level) return;
-      else RotateSunny();
+      else
+      {
+        SoundManager.PlaySound("Click0");
+        RotateSunny();
+      }
     }
     
     public void RotateSunny(float angle = 90f)
@@ -183,6 +187,8 @@ public class Sunny : MonoBehaviour, IPointerClickHandler
         }
         Destroy(trail.gameObject);
         GameController.G.target.SetTemp();
+        GameController.G.res.text = $"";
+        GameController.G.sunDays.text = $"";
         GameController.G.Win();
     }
 }

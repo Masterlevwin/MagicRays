@@ -7,6 +7,7 @@ public class MuteRay : MonoBehaviour, IPointerClickHandler
 {
     public void OnPointerClick(PointerEventData eventData)
     {
+        SoundManager.PlaySound("Infect");
         GameController.G.TextView("Можно использовать только верхние подсвеченные лучи");
     }
 }

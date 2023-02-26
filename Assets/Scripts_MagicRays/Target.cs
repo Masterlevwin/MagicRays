@@ -61,6 +61,10 @@ public class Target : MonoBehaviour, IPointerClickHandler
     public void OnPointerClick(PointerEventData eventData)
     {
         if (GameController.G.phase != GamePhase.level) return;
-        else GameController.G.RestartLevel();
+        else
+        {
+            SoundManager.PlaySound("Click1");
+            GameController.G.RestartLevel();
+        }
     }
 }
