@@ -151,6 +151,7 @@ Library: lib_burst_generated
 --root-assembly=D:\Unity\Projects\MagicRays\Temp\StagingArea\Data\Managed\Unity.Services.Core.Scheduler.dll
 --root-assembly=D:\Unity\Projects\MagicRays\Temp\StagingArea\Data\Managed\Unity.Services.Core.Registration.dll
 --root-assembly=D:\Unity\Projects\MagicRays\Temp\StagingArea\Data\Managed\Unity.2D.PixelPerfect.dll
+--root-assembly=D:\Unity\Projects\MagicRays\Temp\StagingArea\Data\Managed\Unity.AdaptivePerformance.Samsung.Android.dll
 --root-assembly=D:\Unity\Projects\MagicRays\Temp\StagingArea\Data\Managed\Unity.2D.Common.Runtime.dll
 --root-assembly=D:\Unity\Projects\MagicRays\Temp\StagingArea\Data\Managed\Unity.2D.IK.Runtime.dll
 --root-assembly=D:\Unity\Projects\MagicRays\Temp\StagingArea\Data\Managed\Unity.Services.Core.Device.dll
@@ -163,7 +164,6 @@ Library: lib_burst_generated
 --root-assembly=D:\Unity\Projects\MagicRays\Temp\StagingArea\Data\Managed\Unity.Services.Core.Configuration.dll
 --root-assembly=D:\Unity\Projects\MagicRays\Temp\StagingArea\Data\Managed\KinoBloom.Runtime.dll
 --root-assembly=D:\Unity\Projects\MagicRays\Temp\StagingArea\Data\Managed\Unity.Subsystem.Registration.dll
---root-assembly=D:\Unity\Projects\MagicRays\Temp\StagingArea\Data\Managed\Unity.AdaptivePerformance.Samsung.Android.dll
 --assembly-folder=D:\Unity\Projects\MagicRays\Temp\StagingArea\Data\Managed\
 --pdb-search-paths=Temp/ManagedSymbols/
 --method=Unity.Burst.BurstCompiler+BurstCompilerHelper, Unity.Burst, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::IsBurstEnabled()--8c2be93e18276203cbd918daa2748a10
