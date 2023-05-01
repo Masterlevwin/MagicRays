@@ -39,7 +39,7 @@ public class Sunny : MonoBehaviour, IPointerClickHandler
         for (int i = 0; i < 12; i++)
         {
             int a = i * 30;
-            Vector3 pos = CreateCircle(centerSunny, 1.25f, a);
+            Vector3 pos = CreateCircle(centerSunny, 1.7f, a);
             RaySunny raySunny = Instantiate(prefab, pos, Quaternion.identity);
             raySunny.transform.SetParent(transform);
             rays.Add(raySunny);
