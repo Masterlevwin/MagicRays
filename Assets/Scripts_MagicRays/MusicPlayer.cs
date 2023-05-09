@@ -1,13 +1,11 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MusicPlayer : MonoBehaviour
 {
     [SerializeField] private AudioClip[] _audioClips;
     private static int _lastAudioIndex = 0;
 
-    private Coroutine _audioPlayCoroutine;
     private AudioSource _audioSource;
 
     private void Awake()
@@ -20,7 +18,7 @@ public class MusicPlayer : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
 
         _lastAudioIndex = GetClipIndex();
-        _audioPlayCoroutine = StartCoroutine(GetAudioPlay());
+        StartCoroutine(GetAudioPlay());
 
         DontDestroyOnLoad(gameObject);
     }

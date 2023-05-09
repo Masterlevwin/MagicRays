@@ -8,7 +8,7 @@ public class SoundManager : MonoBehaviour
     public string soundFolder = "Sounds";
     public string musicFolder = "Music";
 
-    public float fadeSpeed = 3; // ñêîðîñòü ïëàâíîãî ïåðåõîäà ìåæäó òðåêàìè ìóçûêè
+    public float fadeSpeed = 3;
 
     public AudioMixerGroup musicGroup;
     public AudioMixerGroup soundGroup;
@@ -23,6 +23,13 @@ public class SoundManager : MonoBehaviour
         musicVolume = 1;
         soundVolume = 1;
         _instance = this;
+
+        _audioSource = GetComponent<AudioSource>();
+
+        _lastAudioIndex = GetClipIndex();
+        StartCoroutine(GetAudioPlay());
+
+        DontDestroyOnLoad(gameObject);
     }
 
     public static void SoundVolume(float volume)
@@ -45,6 +52,39 @@ public class SoundManager : MonoBehaviour
     {
         muteMusic = value;
         if (current) current.mute = value;
+    }
+
+    public static void Mute(bool value)
+    {
+        muteSound = value;
+        muteMusic = value;
+    }
+
+    [SerializeField] private AudioClip[] _audioClips;
+    private static int _lastAudioIndex = 0;
+
+    private AudioSource _audioSource;
+    private IEnumerator GetAudioPlay()
+    {
+        while (true)
+        {
+            var clip = _audioClips[_lastAudioIndex];
+
+            _audioSource.clip = clip;
+            _audioSource.Play();
+
+            yield return new WaitForSeconds(clip.length + Time.deltaTime);
+
+            _audioSource.Stop();
+
+            _lastAudioIndex++;
+            _lastAudioIndex = GetClipIndex();
+        }
+    }
+
+    private int GetClipIndex()
+    {
+        return _lastAudioIndex % _audioClips.Length;
     }
 
     void PlaySoundInternal(string soundName)
