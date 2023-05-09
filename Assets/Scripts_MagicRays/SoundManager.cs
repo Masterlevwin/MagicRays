@@ -18,11 +18,18 @@ public class SoundManager : MonoBehaviour
     private static float musicVolume, soundVolume;
     private static bool muteMusic, muteSound;
 
+    [SerializeField] private AudioClip[] _audioClips;
+    private static int _lastAudioIndex = 0;
+
+    private static AudioSource _audioSource;
+
     void Awake()
     {
+        if (_instance == null) _instance = this;
+        else if (_instance == this) Destroy(gameObject);
+
         musicVolume = 1;
         soundVolume = 1;
-        _instance = this;
 
         _audioSource = GetComponent<AudioSource>();
 
@@ -52,18 +59,9 @@ public class SoundManager : MonoBehaviour
     {
         muteMusic = value;
         if (current) current.mute = value;
+        _audioSource.mute = muteMusic;
     }
 
-    public static void Mute(bool value)
-    {
-        muteSound = value;
-        muteMusic = value;
-    }
-
-    [SerializeField] private AudioClip[] _audioClips;
-    private static int _lastAudioIndex = 0;
-
-    private AudioSource _audioSource;
     private IEnumerator GetAudioPlay()
     {
         while (true)

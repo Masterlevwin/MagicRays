@@ -32,4 +32,10 @@ public class SoundManagerComponent : MonoBehaviour
     {
         SoundManager.MuteSound(!value);
     }
+
+    public void ToggleAudio(bool value)
+    {
+        SoundManager.MuteMusic(!value);
+        SoundManager.MuteSound(!value);
+    }
 }
