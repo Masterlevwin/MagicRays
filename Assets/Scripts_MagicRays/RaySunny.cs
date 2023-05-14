@@ -37,22 +37,22 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
     private void RayLevel()
     {
         SetSortOrder(0);
-        if (GameController.training < 25)
+        if (GameController.level < 25)
         {
-            if (GameController.training == 0) SetTemperature(Random.Range(4, 6));
-            else if (GameController.training < 5) SetTemperature(Random.Range(2, 9));
-            else if (GameController.training < 10) SetTemperature(Random.Range(1, 10));
-            else if (GameController.training < 15)
+            if (GameController.level == 0) SetTemperature(Random.Range(4, 6));
+            else if (GameController.level < 5) SetTemperature(Random.Range(2, 9));
+            else if (GameController.level < 10) SetTemperature(Random.Range(1, 10));
+            else if (GameController.level < 15)
             {
                 SetTemperature(Random.Range(1, 10));
                 skill = (Skills)Random.Range(0, System.Enum.GetValues(typeof(Skills)).Length - 3);
             }
-            else if (GameController.training < 20)
+            else if (GameController.level < 20)
             {
                 SetTemperature(GameController.RandomWithoutInt(-5, 10, 0));
                 skill = (Skills)Random.Range(0, System.Enum.GetValues(typeof(Skills)).Length - 3);
             }
-            else if (GameController.training < 25)
+            else if (GameController.level < 25)
             {
                 SetTemperature(GameController.RandomWithoutInt(-5, 10, 0));
                 skill = (Skills)Random.Range(0, System.Enum.GetValues(typeof(Skills)).Length - 1);
@@ -138,7 +138,7 @@ public class RaySunny : MonoBehaviour, IPointerClickHandler
         GameController.G.result += t;
         SkillEffect(skill);
         if (_isCopy) sunny.DestroyCopy();
-        if (GameController.training < 10) GameController.G.TextView("Если не хватило заряда, нажми на солнышко");
+        if (GameController.level < 10) GameController.G.TextView("Если не хватило заряда, нажми на солнышко");
     }
 
     private void Cancel()

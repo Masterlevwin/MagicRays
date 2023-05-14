@@ -126,9 +126,9 @@ public class Sunny : MonoBehaviour, IPointerClickHandler
             StartCoroutine(Rotate(angle));
         }
 
-        if (GameController.training < 15 && rots == 1) GameController.G.TextView("Цель игры - успеть согреть персонажа за сутки");
-        else if (GameController.training < 25 && rots == 2) GameController.G.TextView("Чтобы поменять уровень, нажми на кнопку со стрелочками");
-        else if (GameController.training < 25 && rots == 3) GameController.G.TextView("Нажми на персонажа, чтобы переиграть именно этот уровень");
+        if (GameController.level < 15 && rots == 1) GameController.G.TextView("Цель игры - успеть согреть персонажа за сутки");
+        else if (GameController.level < 25 && rots == 2) GameController.G.TextView("Чтобы поменять уровень, нажми на кнопку со стрелочками");
+        else if (GameController.level < 25 && rots == 3) GameController.G.TextView("Нажми на персонажа, чтобы переиграть именно этот уровень");
     }
 
     private IEnumerator Rotate(float angle)
