@@ -91,7 +91,7 @@ public class GameController: MonoBehaviour
         PlayerPrefs.Save();
         if (level < 8)
         {
-            TextView("Молодец! Понятно, как играть? Если нет, нажми на книжку, чтобы повторить обучение");
+            TextView("Молодец! Понятно, как играть? Если нет, нажми на книжку, чтобы начать заново и повторить обучение");
             Invoke("LoadLevel", 4f);
         } 
         else Invoke("LoadLevel", 2f);

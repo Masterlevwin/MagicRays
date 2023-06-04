@@ -1,0 +1,2303 @@
+fileFormatVersion: 2
+guid: 880f83bb909bd0b4289b4194cc3c70f8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Numbers2_0
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 2365
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549b98fb283cafb4fa0e04e58e437d6e
+      internalID: 1357953024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_1
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 2369
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83346d4fbdbb8984d96b1f6926eb3869
+      internalID: -1951607920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_2
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 2367
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77bd12674f188a347952c03e64652706
+      internalID: 371761234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_3
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 2365
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 007dfba614611e647aa661c11f0c0996
+      internalID: 763121555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_4
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1655
+        width: 511
+        height: 718
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017a77ede3d028b45970b72cedb96bdc
+      internalID: -1143840519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_5
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 2351
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce582b35eef1d1d4ab0eba16123de15f
+      internalID: -434288847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_6
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 2360
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28aafc7c506d6904a97823a12bf69721
+      internalID: -1973249465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_7
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 2358
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca291fcdf069c042ba13f145b7299c5
+      internalID: -884812122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_8
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1663
+        width: 460
+        height: 705
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ff2fb17785bc64b89860778df47727
+      internalID: -1429673341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_9
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1663
+        width: 365
+        height: 695
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8869063d85f85e4ea60bae39bb5e799
+      internalID: -1723839861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_10
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 2350
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bd6a1c244c6644692cfb2dd9f31331
+      internalID: 2000383324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_11
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 2336
+        width: 4
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6880f55b81459b45b5341d02e389161
+      internalID: 1534420292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_12
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 2243
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b65c820c36fee45a53cc4bd30f95ee
+      internalID: 998121635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_13
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 2183
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef9c5cd8267c8646a566ede12dcdee7
+      internalID: -1068480452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_14
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 1912
+        width: 8
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c9e2036c1b3484bb5e2a05950b967e
+      internalID: 1010834535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_15
+      rect:
+        serializedVersion: 2
+        x: 1908
+        y: 1816
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17199acdd935e04cbcffc1bb7a46e37
+      internalID: 1313810998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_16
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1707
+        width: 36
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11770b1faafc5d9479c0bc70c3aa91cf
+      internalID: -1875324720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_17
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 1655
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceff16c0291400d4984424c6e979524b
+      internalID: 1702047885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_18
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1663
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d8fc4bf2cc75f4e837b703ff5ff321
+      internalID: 1879269098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_19
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1655
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebbbe27596048c4db27dae3e16e03bc
+      internalID: 1018725572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_20
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1663
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedafa5642418004a8fe205adaa3b3b5
+      internalID: -1605510736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_21
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1663
+        width: 103
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd30aed545f9c8418e627dfca652888
+      internalID: -1017673115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_22
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1655
+        width: 103
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe78d70891ddb84f81f48278ab156e4
+      internalID: 1225927247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_23
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 1655
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc7f9a02e55ac448a59225f40da1231
+      internalID: -155516491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_24
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1655
+        width: 15
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9266571df8cd2641bc5bc10a5c2f6db
+      internalID: -2019979408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_25
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1655
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305fbf128ca37dc489cd0cde827fa963
+      internalID: 808423383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_26
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1655
+        width: 29
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f70a41d860116448c4544a8b407b26
+      internalID: -1527356853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_27
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1648
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e66d3b0391325f46aff9e0f8225eed7
+      internalID: 752747519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_28
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 1648
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d409207372d036d4cb07af9b93665896
+      internalID: -1519136005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_29
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 1648
+        width: 80
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d282a603565114d46882154697a42cd0
+      internalID: -2042580597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_30
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 894
+        width: 506
+        height: 717
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636848abbfe5d94489a1a50ebe3c2520
+      internalID: -1834442066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_31
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 1603
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60f22740860c854fa19a9c026e4de57
+      internalID: -941203856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_32
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1605
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4261229858cf0b4daa38c99e2cf5f5a
+      internalID: -1227816386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_33
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 1607
+        width: 37
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21a935b4d57415418b05f75709e7f4d
+      internalID: -1480717352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_34
+      rect:
+        serializedVersion: 2
+        x: 1809
+        y: 1603
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ee888821e885e44844ff0fdadce5d3
+      internalID: -2093319053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_35
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 908
+        width: 511
+        height: 696
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ceb1c2c7046d0342a52ea891ea83416
+      internalID: 1745432364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_36
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1597
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df8847626eec4a4daaa2136e683e4c8
+      internalID: 384495683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_37
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1600
+        width: 22
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3170639b13fb34c8e7d8dc8e7863a6
+      internalID: 508692265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_38
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1593
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fc977ec1c893b49a609364c8de98ae
+      internalID: 1646954325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_39
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1596
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb0db85de275f14e86c2467e2b6a595
+      internalID: -736332386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_40
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1600
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b904df1480bc34b94e67d9db70ca88
+      internalID: 141425047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_41
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 1600
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5419bc0b9b1f027409548be6c127b116
+      internalID: -1584651468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_42
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1582
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a5ee2962ea1724a871fc431e52be58
+      internalID: 1080243051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_43
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 894
+        width: 498
+        height: 705
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38778c4a2ba0684fbb04108814af2f9
+      internalID: 865375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_44
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 1216
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c1d4e58b219f14db7ff7179cfcf6b3
+      internalID: -990052690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_45
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 1201
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4a7a5bf383a0548b5d2bb4b45acd9f
+      internalID: -1195062334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_46
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 1143
+        width: 9
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49934bd25ad308a44a44735f77d85d83
+      internalID: -1163457790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_47
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1121
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcda2e705045744fae4f5c07a8650cf
+      internalID: -289677929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_48
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1055
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff6c158ca8fb3d40aa5d22eb76d6965
+      internalID: 1464162110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_49
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 894
+        width: 73
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54726fc037271849be54b831aa5e730
+      internalID: -288017040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_50
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 901
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccab46b8d0d762e48b174bc51a3bb625
+      internalID: 1171786176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_51
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 901
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b076a698461113d46af9a95311009f24
+      internalID: 2057158180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_52
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 901
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e0979a77b085c49a13415ab0583f65
+      internalID: -1346134321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_53
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 901
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8424e746d58bd42be6921c99324c2c
+      internalID: -1130759880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_54
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 886
+        width: 65
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fcbe2e14d12a344aaf4d43cc572909
+      internalID: 2089627101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_55
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 894
+        width: 5
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4221e9c4adb80943b7f01beb4382f5f
+      internalID: 200860377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_56
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 894
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95913bf9111843a47a8d4491d9a00d3a
+      internalID: 334065498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_57
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 901
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631f1c5881c8e4e4b9dff09b34527a3a
+      internalID: -415666510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_58
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 908
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9698aa8b5201d984dba4f7d4cd405f9c
+      internalID: 1511038837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_59
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 901
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2259fb711b06dac47925708f4ad91ebe
+      internalID: -1422387684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_60
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 901
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07dc218eb0afba4ba6848f95b55222f
+      internalID: 944567915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_61
+      rect:
+        serializedVersion: 2
+        x: 1867
+        y: 894
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd196c3bad492324fb30ba4a5ddd5b47
+      internalID: 880425751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_62
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 894
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e841e2f76433e054e8933720bc09b667
+      internalID: 1168345581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_63
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 894
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b98faf793c80c284ca7e2c1d2b2c432a
+      internalID: 1226163186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_64
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 886
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cef53f322b4cd4993c5a1857600e0d
+      internalID: 433153737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_65
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 894
+        width: 18
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d118f57ef67dc664aa17c6a67620945e
+      internalID: -1318645309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_66
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 886
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c475a3d1ab22abf46bbae4ded6297fad
+      internalID: -1939918635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_67
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 886
+        width: 102
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4110c5a3149aa0047a45d73b66e6f74b
+      internalID: -1067550968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_68
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 132
+        width: 515
+        height: 718
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae55835b0f8ce743a0fc791b9f208f6
+      internalID: -1764231377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_69
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 841
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dc7c876405e4a4ca6719384cce761b
+      internalID: -258444690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_70
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 845
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127ed3f541a64f14a8e280f6591f3afe
+      internalID: 1733713206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_71
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 842
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11c7afa79d483143960a1d19790bebc
+      internalID: -666097146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_72
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 132
+        width: 506
+        height: 718
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ba47f15f86117498b9d871ac033b1c
+      internalID: 461969560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_73
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 841
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b43d9eda320be3419563a3101680fe7
+      internalID: -2012269494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_74
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 844
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa00d5eb6687c0b44b1fd4dad22dae53
+      internalID: -1927919507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_75
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 132
+        width: 531
+        height: 718
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a5363a46e46634c99087bd5fb3eb05
+      internalID: -1284905122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_76
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 844
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3403dd3ba6a8e3842929aa081ba8e327
+      internalID: 1115087566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_77
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 846
+        width: 21
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fdbe7bb86e073409d0ae48fbef0c4b
+      internalID: 692986843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_78
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 842
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35161715ed9270a4fa11e9a74c899599
+      internalID: -1217560330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_79
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 128
+        width: 472
+        height: 710
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede4f5af731a3b6469e32d03fa55f626
+      internalID: 1389940864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_80
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 837
+        width: 29
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277631a3183c09b4eadfb0616d31fb47
+      internalID: -906364357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_81
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 835
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcbe1311a69d1f41a4a452876c96d14
+      internalID: 960647740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_82
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 834
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d54f5bc89c153a488cf656d7e46d9c8
+      internalID: 469255815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_83
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 836
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4d007b58ca9054f848e33c31940686
+      internalID: 748356081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_84
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 835
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7c450453bf4b24ab79cfa3484190f7
+      internalID: 912122899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_85
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 754
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01869204fdd4823439f8641fda3ebdfd
+      internalID: 814581309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_86
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 681
+        width: 10
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3306f5c8a290784b8eb2548be15d601
+      internalID: -372424136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_87
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 703
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23e6b65171002a43a8d3bd42afc9675
+      internalID: 43313062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_88
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 659
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9071fd8ed2c4c145b71e48569fa868e
+      internalID: 714392014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_89
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 652
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b09372e6d5d7cd41a331eef2affceab
+      internalID: -65582864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_90
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 526
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573f3f802aa258b40ba3950f78114d9a
+      internalID: -910916132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_91
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 330
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a834ffa27096f1b4bab2ddf56b0e43bd
+      internalID: 92136660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_92
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 293
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b353521d54481c4896550ed2824a2d4
+      internalID: 1771415362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_93
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 125
+        width: 124
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8e6ac78c781dd4a9daa9e5abc8418f
+      internalID: -2044037263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_94
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 125
+        width: 124
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e3edf3c0e13c34d92d15ab5279a7a3
+      internalID: 2041814323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_95
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 132
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9646030738e2474f8664868911c9802
+      internalID: -1595375994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_96
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 125
+        width: 117
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2df4dc7975fb44195cacee93eb8dc7
+      internalID: 563599141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Numbers2_97
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 125
+        width: 29
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d909ce277f6104a4d8440066fb5c2f0c
+      internalID: 32027456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Numbers2_0: 1357953024
+      Numbers2_1: -1951607920
+      Numbers2_10: 2000383324
+      Numbers2_11: 1534420292
+      Numbers2_12: 998121635
+      Numbers2_13: -1068480452
+      Numbers2_14: 1010834535
+      Numbers2_15: 1313810998
+      Numbers2_16: -1875324720
+      Numbers2_17: 1702047885
+      Numbers2_18: 1879269098
+      Numbers2_19: 1018725572
+      Numbers2_2: 371761234
+      Numbers2_20: -1605510736
+      Numbers2_21: -1017673115
+      Numbers2_22: 1225927247
+      Numbers2_23: -155516491
+      Numbers2_24: -2019979408
+      Numbers2_25: 808423383
+      Numbers2_26: -1527356853
+      Numbers2_27: 752747519
+      Numbers2_28: -1519136005
+      Numbers2_29: -2042580597
+      Numbers2_3: 763121555
+      Numbers2_30: -1834442066
+      Numbers2_31: -941203856
+      Numbers2_32: -1227816386
+      Numbers2_33: -1480717352
+      Numbers2_34: -2093319053
+      Numbers2_35: 1745432364
+      Numbers2_36: 384495683
+      Numbers2_37: 508692265
+      Numbers2_38: 1646954325
+      Numbers2_39: -736332386
+      Numbers2_4: -1143840519
+      Numbers2_40: 141425047
+      Numbers2_41: -1584651468
+      Numbers2_42: 1080243051
+      Numbers2_43: 865375
+      Numbers2_44: -990052690
+      Numbers2_45: -1195062334
+      Numbers2_46: -1163457790
+      Numbers2_47: -289677929
+      Numbers2_48: 1464162110
+      Numbers2_49: -288017040
+      Numbers2_5: -434288847
+      Numbers2_50: 1171786176
+      Numbers2_51: 2057158180
+      Numbers2_52: -1346134321
+      Numbers2_53: -1130759880
+      Numbers2_54: 2089627101
+      Numbers2_55: 200860377
+      Numbers2_56: 334065498
+      Numbers2_57: -415666510
+      Numbers2_58: 1511038837
+      Numbers2_59: -1422387684
+      Numbers2_6: -1973249465
+      Numbers2_60: 944567915
+      Numbers2_61: 880425751
+      Numbers2_62: 1168345581
+      Numbers2_63: 1226163186
+      Numbers2_64: 433153737
+      Numbers2_65: -1318645309
+      Numbers2_66: -1939918635
+      Numbers2_67: -1067550968
+      Numbers2_68: -1764231377
+      Numbers2_69: -258444690
+      Numbers2_7: -884812122
+      Numbers2_70: 1733713206
+      Numbers2_71: -666097146
+      Numbers2_72: 461969560
+      Numbers2_73: -2012269494
+      Numbers2_74: -1927919507
+      Numbers2_75: -1284905122
+      Numbers2_76: 1115087566
+      Numbers2_77: 692986843
+      Numbers2_78: -1217560330
+      Numbers2_79: 1389940864
+      Numbers2_8: -1429673341
+      Numbers2_80: -906364357
+      Numbers2_81: 960647740
+      Numbers2_82: 469255815
+      Numbers2_83: 748356081
+      Numbers2_84: 912122899
+      Numbers2_85: 814581309
+      Numbers2_86: -372424136
+      Numbers2_87: 43313062
+      Numbers2_88: 714392014
+      Numbers2_89: -65582864
+      Numbers2_9: -1723839861
+      Numbers2_90: -910916132
+      Numbers2_91: 92136660
+      Numbers2_92: 1771415362
+      Numbers2_93: -2044037263
+      Numbers2_94: 2041814323
+      Numbers2_95: -1595375994
+      Numbers2_96: 563599141
+      Numbers2_97: 32027456
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

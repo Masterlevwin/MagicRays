@@ -121,14 +121,14 @@ public class Sunny : MonoBehaviour, IPointerClickHandler
         if (rots == 3 && angle > 0) GameController.G.Lose();
         else
         {
+            if (GameController.level < 15 && rots == 0) GameController.G.TextView("Цель игры - успеть согреть персонажа за сутки");
+            else if (GameController.level < 25 && rots == 1) GameController.G.TextView("Чтобы поменять уровень, нажми на кнопку со стрелочками");
+            else if (GameController.level < 25 && rots == 2) GameController.G.TextView("Нажми на персонажа, чтобы переиграть именно этот уровень");
+            
             if (angle < 0) Now(--rots);
             else Now(++rots);
             StartCoroutine(Rotate(angle));
-        }
-
-        if (GameController.level < 15 && rots == 1) GameController.G.TextView("Цель игры - успеть согреть персонажа за сутки");
-        else if (GameController.level < 25 && rots == 2) GameController.G.TextView("Чтобы поменять уровень, нажми на кнопку со стрелочками");
-        else if (GameController.level < 25 && rots == 3) GameController.G.TextView("Нажми на персонажа, чтобы переиграть именно этот уровень");
+        }  
     }
 
     private IEnumerator Rotate(float angle)
