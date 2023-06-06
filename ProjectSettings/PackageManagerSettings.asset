@@ -29,8 +29,11 @@ MonoBehaviour:
   m_UserSelectedRegistryName: 
   m_UserAddingNewScopedRegistry: 0
   m_RegistryInfoDraft:
-    m_Modified: 0
-    m_ErrorMessage: 
+    m_Modified: 1
+    m_ErrorMessage: 'Scope(s) cannot be empty
+
+      "URL" must be a valid uri with
+      a scheme matching the http|https pattern'
     m_UserModificationsInstanceId: -830
     m_OriginalInstanceId: -832
   m_LoadAssets: -1
